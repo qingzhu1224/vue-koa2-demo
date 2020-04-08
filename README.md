@@ -1,4 +1,4 @@
-# koa2-vue-test
+# vue-koa2-demo
 
 
 ## Build Setup
@@ -26,9 +26,13 @@ npm run e2e
 npm test
 ```
 
-todo list
+## todo list
+
+```
 
 - [x] koa-webpack热更新
 - [ ] 添加自动帮助重启服务nodemon 或者 supervisor
 - [ ] 添加日志
+
+```
 
