@@ -28,11 +28,8 @@ npm test
 
 ## todo list
 
-```
-
 - [x] koa-webpack热更新
 - [ ] 添加自动帮助重启服务nodemon 或者 supervisor
 - [ ] 添加日志
 
-```
 
