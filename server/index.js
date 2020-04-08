@@ -10,8 +10,8 @@ const webpack = require("webpack");
 const server = require('koa-static');
 const bodyParser = require('koa-bodyparser');
 const webpackConfig = require("../build/webpack.dev.conf");
-const devMiddleware = require("../build/devMiddleware");
-const hotMiddleware = require('../build/hotMiddleware');
+// const devMiddleware = require("../build/devMiddleware");
+// const hotMiddleware = require('../build/hotMiddleware');
 const koaWebpack = require('koa-webpack');
 if(args && args[0] == "production"){
   webpackConfig.mode = "production"
@@ -28,7 +28,6 @@ if(args && args[0] == "production"){
 }else{// 开发打包热加载
   // app.use(devMiddleware(compiler));
   // app.use(hotMiddleware(compiler));
-
   const middleware = koaWebpack({ compiler });
   app.use(middleware);
 }
