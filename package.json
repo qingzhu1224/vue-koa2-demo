@@ -37,7 +37,7 @@
     "error-inject": "^1.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "is-generator-function": "^1.0.7",
     "koa": "^2.5.1",
     "koa-bodyparser": "^4.2.1",
